@@ -58,7 +58,7 @@ app.use("/api", teamRouter);
 app.use("/api", challengeRoute);
 app.use("/api", submissionRoute);
 app.use("/api", settingRouter);
-
+app.get("/", (req, res) => res.send("Express on Vercel"));
 server.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}...`);
 });

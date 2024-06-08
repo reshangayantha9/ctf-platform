@@ -1,0 +1,21 @@
+.setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+}
+.logo {
+  max-width: 150px;
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 30px;
+  color: var(--text-color);
+  text-align: center;
+}
+.minifig {
+  margin-top: 50px;
+  max-height: 200px;
+}

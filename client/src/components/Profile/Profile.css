@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+}
+.sub_hw{
+    margin: 0!important;
+}
+.btn-primary{
+    background-color: var(--secondary-color)!important;
+    border: none!important;
+    width:300px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+}

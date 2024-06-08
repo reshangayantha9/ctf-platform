@@ -1,0 +1,28 @@
+.user-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.user-body{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.all-users-container {
+    width: 100%;
+}
+.user-container{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .user-body{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:460px) {
+    .user-header{
+        flex-direction: column;
+    }
+}

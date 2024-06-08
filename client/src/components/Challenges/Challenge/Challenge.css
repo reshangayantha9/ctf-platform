@@ -1,0 +1,24 @@
+.close{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.panel{
+    text-align: center;
+}
+.input-flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn-info{
+    width: 80%!important;
+    border-radius: 20px;
+    color: var(--text-color)!important;
+    font-weight: 800;
+    background-color: var(--primary-color)!important;
+  }

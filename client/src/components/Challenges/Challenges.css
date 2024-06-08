@@ -1,0 +1,40 @@
+.challenge {
+    background-image: url("../../assets/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub_hw{
+    margin-bottom: 40px;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 20px;
+    padding: 10px 5px;
+  }
+  .sub_tb {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: var(--text-color);
+    background: rgba(0,0,0,.4);
+    padding: 20px 10px;
+    border-radius: 4vmin;
+    margin-bottom: 40px;
+    }
+    .challenges{
+        width: 100%;
+    }
+    .card{
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,.4)!important;
+        color: var(--text-color)!important;
+        cursor: pointer;
+    }

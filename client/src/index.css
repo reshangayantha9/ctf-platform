@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color:var(--text-color)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #222831e0;
+  --secondary-color: #50727bd7;
+  --background-color: #31363ff1;
+  --text-color: #eeeeeeda;
+}
+.navbar-brand{
+  color:#52ccee !important;
+}
+.navbar-light ,.navbar-light .navbar-nav ,.nav-link{
+  color: var(--text-color)!important
+}
+.nav-link:hover,.nav-link.active{
+  color: white !important;
+}
+.line-bar{
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #8b9699,#059dc7fa);
+  margin:0; 
+  border-radius: 2px; 
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-container--top [role="row"],
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-container--bottom [role="row"] {
+  background-color: #31363f6c !important;
+  color: var(--text-color) !important;
+}
+.MuiDataGrid-cell,
+.MuiTablePagination-selectLabel,
+.css-pdct74-MuiTablePagination-selectLabel,
+.MuiSelect-select,
+.css-levciy-MuiTablePagination-displayedRows {
+  color: var(--text-color) !important;
+}
+
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+.heading{
+  margin: 20px 0 20px 0;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  color:#52ccee;
+}
+.heading h1 span {
+  line-height: 2em;
+  padding-bottom: 15px;
+  text-transform: none;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Playfair Display", "Bookman", serif;
+  color: #999;
+  letter-spacing: -0.005em;
+  word-spacing: 1px;
+  letter-spacing: none;
+}
+.heading h1:after,
+.heading h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45px;
+  height: 4px;
+  content: "";
+  right: 45px;
+  margin: auto;
+  background-color: #ccc;
+}
+.heading h1:before {
+  background-color: #50727bd7;
+  left: 45px;
+  width: 90px;
+}
+.sub_hw {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: .02em black;
+  text-shadow: .04em .04em .04em rgba(0,0,0,.4);
+  }
+  .css-b8tju9{
+    background-color: var(--background-color)!important;
+    width: 400px!important;
+    padding: 15px!important;
+    border-radius: 20px!important;
+
+  }
+  .css-1ghcpru{
+    width: auto !important;
+  }
+  

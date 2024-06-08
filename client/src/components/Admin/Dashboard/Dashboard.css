@@ -1,0 +1,15 @@
+.MuiToolbar-gutters,.css-1r9jet7 ,.MuiDrawer-paper,.css-i4bv87-MuiSvgIcon-root{
+    background-color: var(--primary-color)!important;
+    color:var(--text-color);
+}
+.css-10hburv-MuiTypography-root,.bi{
+    color:var(--text-color);
+}
+.bi{
+    font-size: 20px;
+}
+.MuiBox-root .css-zxdg2z{
+    background-color: var(--background-color);
+    min-height: 100vh;
+    color:var(--text-color)
+}
